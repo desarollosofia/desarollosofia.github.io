@@ -1,0 +1,31 @@
+
+body{
+    background-image: url("fondo1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titulo {
+    color: rgb(15, 5, 68);
+    background-color: rgb(128, 188, 227);
+    height: 50Px;
+    margin: 20px;
+    padding: 20px;
+}
+
+table, tr, th{
+    border: 1px dashed red;
+    border-collapse: collapse;
+    
+}
+
+table{
+    background-image: url("fondo1.jpg");
+    background-size: cover;
+}
+
+table:hover{
+    color: black;
+    background-color: brown;
+}
