@@ -1,0 +1,94 @@
+
+body{
+    background-color: rgb(230, 164, 230);
+}
+
+p{background-color: red;}
+
+h1{background-color: blue;}
+h1{color: brown;}
+
+.principal{
+    color: blue;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.secundario{
+    color: blue;
+}
+.terciario{
+    color: azure;
+}
+
+#tituloprincipal{
+    color: antiquewhite;
+}
+
+.grid-contenedor{
+    display: flex;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:10px;
+}
+.grid-item{
+    background-color: blanchedalmond;
+    border: 2px dotted blueviolet;
+}
+.contenedor1{
+    width: 280px;
+    height: 150px;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid purple;
+}
+
+.contenedor2{
+    width: 280px;
+    height: 150px;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid yellow;
+}
+
+.contenedor3{
+    width: 280px;
+    height: 150px;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.pedido{
+    color: black;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.borde{
+    width: 280px;
+    margin: 10px;
+    padding: 20px;
+    border: 5px solid purple;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:10px;
+}
+
+a:hover{
+    color: black;
+    background-color: brown;
+}
+
+
+
+
+
+
+
+
