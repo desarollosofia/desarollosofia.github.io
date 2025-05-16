@@ -3,33 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurante</title>
-    <link rel="stylesheet" href="estilos.css">
-    <a href="Menu.html">MENU</a>
-    <a href="Nosotros.html">Nosotros</a>
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
-
 <body>
-<div class="grid-contenedor">
-    <h2 class="principal" id="tituloprincipal" >Restaurante</H2>
-
-    <div class="contenedor1">
-        
-        <H2 class="grid-item" id="titulo terciario">DIRECCION:</H2>
-        <P class="grid-item" id="parrafo secundario">Calle 9a</P>
-        
-    </div>
-
-    <div class="contenedor2">
-        <img src="cocina.png" width="50px" alt="">
-        <h2 class="secundario" id="titulosecundario">TELEFONO:</h2>
-    </div>
-    
-    <div class="contenedor3">
-    <p>313 7327372387</p>
-    </div>
-
-</div>
-
+    <header>
+        <h1>MI PORTAFOLIO</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header id="about">
+    <h2>Sobre mi</h2>
+    <p>Hola, Soy sofia, Tecnologa en mecatronica, apasionada por la robotica, y la tecnologia</p>
+    <section>
+    <section id="portafolio">
+        <h2>portafolio</h2>
+        <div class="gallery">
+        <div class="project">
+            <img src="fondo1.jpg" alt="fondo1.jpg">
+            <P>Descripcion del proyecto</P>
+        </div>
+        </div>
+    </section>
+    </section>
+    <section id="Contact">
+        <h2>Contacto</h2>
+        <form action="/submit" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Correo Electronico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Mensaje:</label><br>
+        <textarea for="message" name="message" required></textarea><br>
+        <input type="submit" value="Enviar">
+        </form>
+    </section>
 </body>
 </html>
